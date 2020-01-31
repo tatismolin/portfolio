@@ -24,28 +24,80 @@
     *:focus {
         outline: none;
     }
-    
 
     .Navigation {
         position: fixed;
         width: 100%;
         padding: 1rem;
         z-index: 1000;
+    }
+
+    .navigation-div {
+        display: none;
+    }
+
+    .toggle-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 2rem;
+        height: 2rem;
+        background: transparent;
+        border: none;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .toggle-button-line {
+        width: 2rem;
+        height: 2px;
+        background: white;
+    }
+
+    .side-drawer {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+        height: 20%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        z-index: 1000;
         font-family: "Raleway-Thin";
         color: white;
         font-size: 12px;
         -webkit-font-smoothing: antialiased;
+        z-index: 200;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-out;
     }
 
-    .navigation-div {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+    .side-drawer.open {
+        transform: translateX(0);
     }
 
-    .navigation-text:hover {
+    .side-drawer-text {
+        padding-top: 0.2rem;
+        float: right;
+    }
+
+    .side-drawer-text:hover {
         color: #e44c8b;
         transition: 0.2s;
-        cursor: pointer;
+    }
+
+    .side-drawer-text:active {
+        color: #e44c8b;
+        transition: 0.2s;
+    }
+
+    .back-drop {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        top: 0;
+        right: 0;
     }
 }

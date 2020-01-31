@@ -1,0 +1,50 @@
+@media only screen and (min-width: 415px){
+
+    @font-face {
+        font-family: "Raleway-Regular";
+        src: local("Raleway-Regular"), url(../fonts/Raleway-Regular.ttf);
+      }
+    
+      @font-face {
+        font-family: "Raleway-Thin";
+        src: local("Raleway-Thin"), url(../fonts/Raleway-Thin.ttf);
+      }
+    
+      @font-face {
+        font-family: "Raleway-SemiBold";
+        src: local("Raleway-SemiBold"), url(../fonts/Raleway-SemiBold.ttf);
+      }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    *:focus {
+        outline: none;
+    }
+    
+
+    .Navigation {
+        position: fixed;
+        width: 100%;
+        padding: 1rem;
+        z-index: 1000;
+        font-family: "Raleway-Thin";
+        color: white;
+        font-size: 12px;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .navigation-div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navigation-text:hover {
+        color: #e44c8b;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+}

@@ -1,6 +1,9 @@
 import React from "react";
+
 import "./styles/App-desktop.css";
 import "./styles/App-mobile.css";
+
+import Navigation from "./components/Navigation";
 
 function App(){
   return(
@@ -13,6 +16,8 @@ function App(){
         <h1 className="main-text">I'm a full-stack web developer.</h1>
         <button className="main-button">View my work</button>
       </div>
+
+      <Navigation />
     </div>
   );
 };

@@ -47,4 +47,17 @@
         transition: 0.2s;
         cursor: pointer;
     }
+
+    .navigation-text:active {
+        color: #e44c8b;
+        transition: 0.2s;
+    }
+
+    .side-drawer {
+        display: none;
+    }
+
+    .toggle-button {
+        display: none;
+    }
 }

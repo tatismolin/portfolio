@@ -9,9 +9,7 @@ function Navigation(props){
 
     return(
         <div className="Navigation">
-            <div>
-                <DrawerToggleButton click={props.handleClick} />
-            </div>
+            <DrawerToggleButton click={props.handleClick} />
             <div className="navigation-div">
                 <h2 className="navigation-text">HOME</h2>
                 <h2 className="navigation-text">ABOUT</h2>

@@ -26,9 +26,8 @@
     }
 
     .Navigation {
-        position: fixed;
+        position: sticky;
         width: 100%;
-        padding: 1rem;
         z-index: 1000;
     }
 
@@ -51,28 +50,30 @@
     .toggle-button-line {
         width: 2rem;
         height: 2px;
-        background: white;
+        background: black;
     }
 
     .side-drawer {
-        margin-left: 1rem;
+        background: url("../media/dark_background.jpg");
+
         margin-top: 1rem;
-        width: 100%;
+        width: 120%;
         height: 20%;
-        position: fixed;
+        position: sticky;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         font-family: "Raleway-Thin";
         color: white;
+        border-bottom: 1px solid;
         font-size: 12px;
         -webkit-font-smoothing: antialiased;
-        z-index: 200;
-        transform: translateY(-110%);
+        z-index: 1000;
+        transform: translateX(-120%);
     }
 
     .side-drawer.open {
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
     .side-drawer-text {
@@ -94,7 +95,6 @@
         position: fixed;
         width: 100%;
         height: 100%;
-        z-index: 100;
         top: 0;
         right: 0;
     }

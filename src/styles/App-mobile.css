@@ -25,12 +25,10 @@
       outline: none;
     }
   
-    .App {
-      background: black;
+    .app {
       background: url("../media/dark_background.jpg") no-repeat fixed center;
       min-height: 100vh;
       position: relative;
-      cursor: default;
     }
   
     .main-div {
@@ -63,7 +61,6 @@
       border: 2px solid #fff;
       box-sizing: inherit;
       background: none;
-      cursor: pointer;
       font-family: "Raleway-Regular";
       color: white;
       -webkit-font-smoothing: antialiased;

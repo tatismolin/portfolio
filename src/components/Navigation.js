@@ -8,7 +8,7 @@ import DrawerToggleButton from "./DrawerToggleButton";
 function Navigation(props){
 
     return(
-        <div className="Navigation">
+        <div className="navigation">
             <DrawerToggleButton click={props.handleClick} />
             <div className="navigation-div">
                 <h2 className="navigation-text">HOME</h2>

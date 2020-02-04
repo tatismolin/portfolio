@@ -1,0 +1,21 @@
+@media only screen and (max-width: 414px){
+
+    .toggle-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-sizing: border-box;
+        background: transparent;
+        border: none;
+        width: 2rem;
+        height: 2rem;
+        padding: 0;
+    }
+
+    .toggle-button-line {
+        width: 2rem;
+        height: 2px;
+        background: white;
+    }
+
+}

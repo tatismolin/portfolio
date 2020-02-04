@@ -10,7 +10,7 @@ class App extends Component{
   render(){
     return(
       <>
-      <div className="App">
+      <div className="app">
         <div className="main-div">
           <div className="main-text-align">
             <h1 className="main-text">Hello, I'm</h1>

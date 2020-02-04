@@ -3,17 +3,17 @@
     @font-face {
         font-family: "Raleway-Regular";
         src: local("Raleway-Regular"), url(../fonts/Raleway-Regular.ttf);
-      }
+    }
     
-      @font-face {
+    @font-face {
         font-family: "Raleway-Thin";
         src: local("Raleway-Thin"), url(../fonts/Raleway-Thin.ttf);
-      }
+    }
     
-      @font-face {
+    @font-face {
         font-family: "Raleway-SemiBold";
         src: local("Raleway-SemiBold"), url(../fonts/Raleway-SemiBold.ttf);
-      }
+    }
     
     * {
         margin: 0;
@@ -26,8 +26,8 @@
     }
     
 
-    .Navigation {
-        background: url("../media/dark_background.jpg");
+    .navigation {
+        background-color: rgb(20, 20, 20);
         position: sticky;
         width: 100%;
         padding: 1rem;
@@ -54,7 +54,7 @@
         transition: 0.2s;
     }
 
-    .side-drawer {
+    .drop-down {
         display: none;
     }
 

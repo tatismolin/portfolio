@@ -1,11 +1,12 @@
 import React from "react";
 
-import "../styles/Navigation-mobile.css";
+import "../styles/BackDrop.css";
 
 function backDrop(props){
     return(
-        <div className="back-drop" onClick={props.click}>
-
+        <div 
+            className="back-drop" 
+            onClick={props.click}>
         </div>
     );
 };

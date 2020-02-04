@@ -25,8 +25,7 @@
     outline: none;
   }
 
-  .App {
-    background: black;
+  .app {
     background: url("../media/dark_background.jpg") no-repeat fixed center;
     background-size: 100% 100%;
     min-height: 100vh;

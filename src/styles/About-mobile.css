@@ -47,7 +47,17 @@
         margin-bottom: 2rem; 
     }
 
-    .about > p {
+    .about-div {
+        margin: 1rem;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .about-text > p {
         text-align: center;
         line-height: 18pt;
         font-size: 18px;

@@ -3,6 +3,8 @@ import React, {Component} from "react";
 import "../styles/About-desktop.css";
 import "../styles/About-mobile.css";
 
+import ProfileImage from "../media/profile_image.jpg";
+
 import Navigation from "./Navigation";
 import DropDown from "./DropDown";
 import BackDrop from "./BackDrop";
@@ -38,16 +40,21 @@ class About extends Component{
                 {backDrop}
                 <div className="about">
                     <h1>ABOUT</h1>
-                    <p>
-                        Hi! My name is Tatiana and I code! 🙂
-                        I am a Full Stack Software Engineer specializing in Ruby on Rails and JavaScript/React. 
-                    </p>
-                    <p> 
-                        My background is 5+ years in Tech doing IT Project Management and Software Testing. 
-                    </p>
-                    <p> 
-                        When not coding, I’m skiing during the winter and running Spartan Races during the summer.
-                    </p>
+                    <div className="about-div">
+                        <img className="profile-image" src={ProfileImage} alt="profile"></img>
+                        <div className="about-text">
+                            <p>
+                                Hi! My name is Tatiana and I code! 🙂
+                                I am a Full Stack Software Engineer specializing in Ruby on Rails and JavaScript/React. 
+                            </p>
+                            <p> 
+                                My background is 5+ years in Tech doing IT Project Management and Software Testing. 
+                            </p>
+                            <p> 
+                                When not coding, I’m skiing during the winter and running Spartan Races during the summer.
+                            </p>
+                        </div>
+                    </div>
                     <h2>My Skills</h2>
                     <div className="skills-div">
                         <img 

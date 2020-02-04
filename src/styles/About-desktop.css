@@ -47,7 +47,23 @@
         margin-bottom: 2rem; 
     }
 
-    .about > p {
+    .about-div {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .about-text {
+        margin-left: 2rem;
+    }
+
+    .profile-image {
+        width: 30%;
+        min-width: 250px;
+        height: auto;          
+    }
+
+    .about-text > p {
         text-align: center;
         line-height: 22pt;
         font-size: 22px;

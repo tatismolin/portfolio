@@ -64,18 +64,18 @@ class About extends Component{
                         </img>
                         <img 
                             className="skill-image" 
+                            src="https://oneteamsolutions.in/images/upload/post-33.png" 
+                            alt="react">   
+                        </img>
+                        <img 
+                            className="skill-image" 
                             src="https://miro.medium.com/max/866/0*T6N1_5m6-H2k3bKN" 
                             alt="sql">   
                         </img>
                         <img 
                             className="skill-image" 
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" 
+                            src="https://techtatva.co/techtatva140717/wp-content/uploads/2018/09/js-logo.png" 
                             alt="js">   
-                        </img>
-                        <img 
-                            className="skill-image" 
-                            src="https://oneteamsolutions.in/images/upload/post-33.png" 
-                            alt="react">   
                         </img>
                         <img 
                             className="skill-image" 

@@ -25,59 +25,27 @@
         outline: none;
     }
 
-    .about {
+    .portfolio {
         background: white;
         background-size: 100%;
-        height: auto;
+        height: 125vh;
         min-height: 100vh;
         margin-left: 10%;
         margin-right: 10%;
         font-family: "Raleway-Regular";
-    }
-
-    .about > h1 {
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-    }
-
-    .about > h2 {
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-    }
-
-    .about-text > p {
-        text-align: center;
-        line-height: 18pt;
-        font-size: 18px;
-        padding: 0.5rem;
-    }
-
-    .description {
-        margin: 1rem;
-    }
-
-    .profile-image {
-        width: 100%;
-        height: auto;
-        padding: 1rem;
-    }
-
-    .skills {
-        display: flex;
-        flex-direction: column; 
-        justify-content: center;
-        margin-bottom: 4rem;
         position: relative;
     }
 
-    .skill-image {
-        width: auto;
-        max-width: 10rem;
-        height: 10rem;
-        margin: 1rem;
-        align-self: center;    
+    .portfolio > h1 {
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .portfolio > h2 {
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 2rem; 
     }
 
 }

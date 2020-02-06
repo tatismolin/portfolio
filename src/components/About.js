@@ -40,7 +40,7 @@ class About extends Component{
                 {backDrop}
                 <div className="about">
                     <h1>ABOUT</h1>
-                    <div className="about-div">
+                    <div className="description">
                         <img className="profile-image" src={ProfileImage} alt="profile"></img>
                         <div className="about-text">
                             <p>
@@ -55,8 +55,8 @@ class About extends Component{
                             </p>
                         </div>
                     </div>
-                    <h2>My Skills</h2>
-                    <div className="skills-div">
+                    <h2>MY SKILLS</h2>
+                    <div className="skills">
                         <img 
                             className="skill-image" 
                             src="https://i.ya-webdesign.com/images/ruby-transparent-rails-png-18.png" 

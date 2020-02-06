@@ -10,7 +10,7 @@ function Navigation(props){
     return(
         <div className="navigation">
             <DrawerToggleButton click={props.handleClick} />
-            <div className="navigation-div">
+            <div className="navigation-links">
                 <h2 className="navigation-text">HOME</h2>
                 <h2 className="navigation-text">ABOUT</h2>
                 <h2 className="navigation-text">PORTFOLIO</h2>

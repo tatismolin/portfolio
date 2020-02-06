@@ -25,7 +25,6 @@
         outline: none;
     }
     
-
     .navigation {
         background-color: rgb(20, 20, 20);
         position: sticky;
@@ -38,7 +37,7 @@
         -webkit-font-smoothing: antialiased;
     }
 
-    .navigation-div {
+    .navigation-links {
         display: flex;
         justify-content: space-evenly;
     }

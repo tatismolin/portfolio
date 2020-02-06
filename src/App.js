@@ -4,6 +4,7 @@ import "./styles/App-desktop.css";
 import "./styles/App-mobile.css";
 
 import About from "./components/About";
+import Portfolio from "./components/Portfolio";
 
 class App extends Component{
 
@@ -20,7 +21,14 @@ class App extends Component{
           <button className="main-button">View my work</button>
         </div>
       </div>
+      <div>
       <About />
+
+      </div>
+      <div>
+
+      <Portfolio />
+      </div>
       </>
     );
   };

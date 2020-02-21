@@ -47,7 +47,16 @@
   
     .main-text-align {
       display: flex;
+      flex-direction: column;
       justify-content: space-evenly;
+    }
+  
+    .main-text {
+      display: inline-block;
+    }
+  
+    .left-text {
+      margin-right: 0.5rem;
     }
   
     .highlight {

@@ -38,7 +38,7 @@ class About extends Component{
                 <Navigation handleClick={this.handleDrawerClick} />
                 <DropDown show={dropDownOpen} />   
                 {backDrop}
-                <div className="about">
+                <div className="about" id="section1">
                     <h1>ABOUT</h1>
                     <div className="description">
                         <img className="profile-image" src={ProfileImage} alt="profile"></img>
